@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #e1cd98; /* Light beige background */
+}
+
+
+header {
+  background: #8B5E3C; /* Brown background */
+  color: blackfas fa-phone-alt; /* White text color */
+  padding: 20px 0;
+  text-align: center;
+}
+/* Specific styles for phone number and email address */
+.phone-number, .email-address {
+  font-family: 'Arial', sans-serif; /* Change to desired font */
+  font-size: 1.1em; /* Adjust font size as needed */
+  color: #FFF; /* White text color */
+  font-weight: bold; /* Bold text */
+}
+
+
+.header-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header title styles */
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #FFF; /* White text color */
+  font-weight: bold; /* Bold header text */
+}
+
+/* Header paragraph styles */
+header p {
+  margin: 5px 0; /* Reduced margin for better alignment */
+  font-size: 1.1em;
+  color: #FFF; /* White text color */
+}
+
+header i {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+
+header span {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+header a {
+  color: #FFF; /* White link color */
+  text-decoration: none;
+  border-bottom: 1px solid #FFF;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Header content styles */
+.header-content {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px; /* Space between photo and vertical line */
+}
+
+
+
+
+/* Navigation styles */
+nav {
+  margin-top: 20px; /* Increased margin for better separation from header content */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between menu items */
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav a {
+  color: #FFF; /* White link color */
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section styles */
+.section {
+  background: #F5F5DC ; /* Light beige background */
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #8B5E3C; /* Brown text color */
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4B3B30; /* Dark brown text color */
+}
+
+/* Education, Experience, Projects, Skills, Competitions, Certifications */
+.education, .experience, .project, .competition {
+  background: #F5DEB3; /* Light brown background for sections */
+  padding: 20px;
+  border: 1px solid #D3BCA7; /* Light brown border */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education p, .experience p, .project p, .competition p {
+  margin: 0; /* Remove margin between paragraphs */
+  padding: 0; /* Remove padding inside paragraphs */
+  line-height: 1.4; /* Adjust line height for better readability */
+}
+
+.education h3, .experience h3, .project h3, .competition h3 {
+  margin-bottom: 10px; /* Reduce space below headings */
+}
+/* Experience section styles */
+/* General section styles for Education, Experience, Projects, Skills, Competitions, Certifications */
+.education, .experience, .project, .competition, .certifications {
+  background: #F5DEB3; /* Light brown background for sections */
+  padding: 20px;
+  border: 1px solid #D3BCA7; /* Light brown border */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Align all paragraphs to the left and adjust spacing */
+.education p, .experience p, .project p, .competition p, .certifications p {
+  text-align: left; /* Left-align text */
+  margin: 0; /* Remove margin between paragraphs */
+  padding: 0; /* Remove padding inside paragraphs */
+  line-height: 1.4; /* Adjust line height for better readability */
+}
+
+.education p, .experience p, .project p, .competition p, .certifications p {
+  font-weight: bold; /* Make all text in paragraphs bold */
+}
+
+/* Social links styles */
+.social-links {
+  margin-top: -10px; /* Adjust negative margin to move links up */
+  text-align: center; /* Center-align the links within the container */
+}
+
+.social-link {
+  color: #4B3B30; /* Dark brown color for social links */
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px; /* Space between links */
+  font-size: 1.2em; /* Size of the icons */
+}
+
+.social-link i {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.linkedin-link {
+  color: #0077B5; /* LinkedIn color */
+}
+
+.github-link {
+  color: #333; /* GitHub color */
+}
+
+/* Style for section headings */
+.education h3, .experience h3, .project h3, .competition h3, .certifications h3 {
+  margin-bottom: 10px; /* Reduce space below headings */
+}
+
+.competition-link {
+  color: #8B5E3C; /* Brown color for the link */
+  text-decoration: none; /* Remove underline */
+  margin-left: 10px; /* Space between the title and the link */
+}
+
+.competition-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}/* Certifications section styles */
+.certifications {
+  background: #F5DEB3; /* Light brown background for sections */
+  padding: 20px;
+  border: 1px solid #D3BCA7; /* Light brown border */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certifications-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.certifications-list li {
+  background: #F5DEB3; /* Light brown background for individual boxes */
+  border: 1px solid #D3BCA7; /* Light brown border */
+  border-radius: 8px;
+  padding: 15px; /* Space inside each box */
+  margin-bottom: 10px; /* Space between boxes */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block; /* Ensure each item is displayed as a block */
+}
+
+.certifications-list a {
+  color: #4B3B30; /* Dark brown color for links */
+  text-decoration: none;
+}
+
+.certifications-list a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+/* GitHub link styles */
+.github-link {
+  color: #D2691E; /* Light brown color */
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+ul.skills-list, ul.certifications-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.skills-list li, .certifications-list li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  background: #F5DEB3;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  background: #8B5E3C;
+  color: #FFF; /* White text color */
+  text-align: center;
+  padding: 10px 0;
+}
+/* About Me section */
+/* About Me section */
+.about-me-section {
+  background: #F5F5DC; /* Light beige background */
+  padding: 20px;
+  border: 1px solid #D3D3C4; /* Slightly darker beige border for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 10px; /* Reduce the top padding */
+}
+.about-me-section h2 {
+  text-align: center; /* Align the heading text to the right */
+  color: #8B5E3C; /* Brown text color for header */
+  margin: 20px 0 10px 280px; /* Adjust the left margin to shift it towards the right */
+}
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between photo and text */
+}
+
+.photo-container {
+  flex: 0 0 250px; /* Increase the size of the photo container */
+}
+
+.photo-container img {
+  width: 100%;
+  height: 300px; /* Set the height to match the width for a square shape */
+  object-fit: cover;
+  border-radius: 8px; /* Makes the photo square with rounded corners */
+}
+
+.vertical-line {
+  width: 2px;
+  background: #4B3B30; /* Dark brown line color */
+  height: 300px; /* Match photo height */
+}
+
+.text-container {
+  flex: 1; /* Takes up the remaining space */
+  text-align: left;
+}
+
+.text-container p {
+  font-size: 1.1em;
+  color: #4B3B30; /* Dark brown text color for paragraphs */
+  margin-bottom: 100px;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .education, .experience, .project, .competition {
+      padding: 15px;
+  }
+
+  nav ul {
+      flex-direction: column;
+  }
+
+  .skills-list li, .certifications-list li {
+      display: block;
+      margin: 5px 0;
+  }
+}
+ 
